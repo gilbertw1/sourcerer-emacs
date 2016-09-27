@@ -10,3 +10,21 @@ Manually:
 
     (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
     (load-theme 'sourcerer t)
+
+
+## Screenshots ##
+
+scala
+
+![scala](http://drop.bryangilbert.com/2h5e.png)
+
+
+javascript
+
+![javascript](http://drop.bryangilbert.com/Ylkn.png)
+
+
+rust
+
+![rust](http://drop.bryangilbert.com/1676b.png)
+
