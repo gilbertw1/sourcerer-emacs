@@ -698,8 +698,11 @@
     `(sx-question-mode-content-face ((,class (:background ,highlight))))
     `(sx-question-list-answers ((,class (:height 1.0 :inherit sx-question-list-parent :foreground ,green))))
     `(sx-question-mode-accepted ((,class (:height 1.5 :inherit sx-question-mode-title :foreground ,green))))
-    `(sx-question-mode-kbd-tag ((,class (:height 0.9 :weight semi-bold :box (:line-width 3 :style released-button :color ,contrast-bg)))))))
+    `(sx-question-mode-kbd-tag ((,class (:height 0.9 :weight semi-bold :box (:line-width 3 :style released-button :color ,contrast-bg))))))
 
+  (custom-theme-set-variables
+   'sourcerer
+   `(ansi-color-names-vector [,foreground ,red ,green ,yellow ,blue ,purple ,aqua ,background])))
 
 ;;;###autoload
 (when load-file-name
