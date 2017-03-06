@@ -167,7 +167,11 @@
     `(isearch-fail ((,class (:background ,background :inherit font-lock-warning-face :inverse-video t))))
 
     ;; Anzu
+    `(anzu-match-1 ((,class (:foreground ,green :background ,background))))
+    `(anzu-match-2 ((,class (:foreground ,yellow :background ,background))))
+    `(anzu-match-3 ((,class (:foreground ,brightgreen :background ,background))))
     `(anzu-mode-line ((,class (:foreground ,orange))))
+    `(anzu-mode-line-no-match ((,class (:foreground ,red))))
     `(anzu-replace-highlight ((,class (:inherit isearch-lazy-highlight-face))))
     `(anzu-replace-to ((,class (:inherit isearch))))
 
